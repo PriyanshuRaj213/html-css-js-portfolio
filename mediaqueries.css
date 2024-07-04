@@ -9,7 +9,6 @@
   #contact,
   #projects {
     height: fit-content;
-    
   }
 }
 
@@ -22,7 +21,9 @@
   }
   #experience,
   .experience-details-container {
+    
     margin-top: 2rem;
+    
   }
   #profile,
   .section-container {
@@ -88,8 +89,9 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 25px; 
+    /* auto; */
+    height:23vw;
     justify-content: center;
   }
   .section__text__p2 {
