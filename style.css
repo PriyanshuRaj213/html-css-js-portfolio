@@ -7,7 +7,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -274,7 +273,7 @@ section {
   margin-top: 2rem;
 }
 
-.about-details-container {
+.-container {
   justify-content: center;
   flex-direction: column;
 }
@@ -282,6 +281,14 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  /* margin-left: auto; */
+ 
+  /* position: relative; */
+  /* flex-wrap: wrap; */
+ 
+ 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .about-pic {
